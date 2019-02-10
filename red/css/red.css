@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, code,
@@ -25,7 +24,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body {
 	line-height: 1;
 }
-/* tables still need 'cellspacing="0"' in the markup */
+
 table {
 	border-collapse: separate;
 	border-spacing: 0;
@@ -97,16 +96,6 @@ a:hover {
 	padding-bottom:40px;
 }
 
-.wrapper-bottom {
-	width:969px;
-	height:22px;
-	padding:0;
-	margin:0 auto;
-	background-image:url(../images/bbottom.jpg);
-	background-repeat:no-repeat;
-}
-
-
 
 #paper {
 	width:828px;
@@ -149,7 +138,7 @@ a:hover {
 	display: block;
 	padding-top:55px;
 	clear: both;
-	margin-left:4px;
+	margin-left:94px;
 }
 
 h1  {
@@ -380,10 +369,9 @@ ul.works li img:hover {
 }
 
 img.portrait {
-	background-image:url(../images/frame.jpg);
 	background-repeat: no-repeat;
-	width:109px;
-	height:109px;
+	width:200px;
+	height:200px;
 	padding-top:20px;
 	padding-left:11px;
 	padding-right:11px;
@@ -396,9 +384,9 @@ img.portrait {
 
 .self {
 	width:250px;
-	float:left;
-	padding-top:11px;
-	margin-left:38px;
+	float:center;
+	padding-top:41px;
+	margin-left:210px;
 	margin-bottom:15px;
 }
 
@@ -410,17 +398,11 @@ img.portrait {
 	background-image:url(../images/icn-ad.gif);
 }
 
-.self ul li.mail {
-	background-image:url(../images/icn-mail.gif);
-}
 
 .self ul li.tel {
 	background-image:url(../images/icn-tel.gif);
 }
 
-.self ul li.web {
-	background-image:url(../images/icn-web.gif);
-}
 
 .self ul li {
 	background-repeat: no-repeat;
